@@ -1,0 +1,241 @@
+--VERSION 2 BY OVATATICOOL, I THINK IT WORK
+local Converted = {
+	["_InternalUI"] = Instance.new("ScreenGui");
+	["_Blur"] = Instance.new("Frame");
+	["_Main"] = Instance.new("Frame");
+	["_UICorner"] = Instance.new("UICorner");
+	["_title"] = Instance.new("Frame");
+	["_UICorner1"] = Instance.new("UICorner");
+	["_TextLabel"] = Instance.new("TextLabel");
+	["_Executor"] = Instance.new("Frame");
+	["_UICorner2"] = Instance.new("UICorner");
+	["_ScrollingFrame"] = Instance.new("ScrollingFrame");
+	["_gettextbox"] = Instance.new("TextBox");
+	["_Execute"] = Instance.new("TextButton");
+	["_UICorner3"] = Instance.new("UICorner");
+	["_LocalScript"] = Instance.new("LocalScript");
+	["_Clear"] = Instance.new("TextButton");
+	["_UICorner4"] = Instance.new("UICorner");
+	["_LocalScript1"] = Instance.new("LocalScript");
+	["_TextButton"] = Instance.new("TextButton");
+	["_UICorner5"] = Instance.new("UICorner");
+	["_LocalScript2"] = Instance.new("LocalScript");
+}
+
+-- Properties:
+
+Converted["_InternalUI"].DisplayOrder = 999999999
+Converted["_InternalUI"].ResetOnSpawn = false
+Converted["_InternalUI"].Name = "InternalUI"
+Converted["_InternalUI"].Parent = game:GetService("CoreGui")
+
+Converted["_Blur"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Blur"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Blur"].BackgroundTransparency = 0.699999988079071
+Converted["_Blur"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Blur"].BorderSizePixel = 0
+Converted["_Blur"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_Blur"].Size = UDim2.new(1, 0, 2, 0)
+Converted["_Blur"].Name = "Blur"
+Converted["_Blur"].Parent = Converted["_InternalUI"]
+
+Converted["_Main"].AnchorPoint = Vector2.new(0.5, 0.5)
+Converted["_Main"].BackgroundColor3 = Color3.fromRGB(49.000004678964615, 49.000004678964615, 49.000004678964615)
+Converted["_Main"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Main"].BorderSizePixel = 0
+Converted["_Main"].Position = UDim2.new(0.5, 0, 0.5, 0)
+Converted["_Main"].Size = UDim2.new(0, 715, 0, 430)
+Converted["_Main"].Name = "Main"
+Converted["_Main"].Parent = Converted["_InternalUI"]
+
+Converted["_UICorner"].CornerRadius = UDim.new(0, 6)
+Converted["_UICorner"].Parent = Converted["_Main"]
+
+Converted["_title"].BackgroundColor3 = Color3.fromRGB(36.00000165402889, 36.00000165402889, 36.00000165402889)
+Converted["_title"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_title"].BorderSizePixel = 0
+Converted["_title"].Position = UDim2.new(0.0125874123, 0, 0.0162790697, 0)
+Converted["_title"].Size = UDim2.new(0, 699, 0, 30)
+Converted["_title"].Name = "title"
+Converted["_title"].Parent = Converted["_Main"]
+
+Converted["_UICorner1"].Parent = Converted["_title"]
+
+Converted["_TextLabel"].Font = Enum.Font.SourceSans
+Converted["_TextLabel"].Text = "Krampus Internal UI"
+Converted["_TextLabel"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].TextScaled = true
+Converted["_TextLabel"].TextSize = 14
+Converted["_TextLabel"].TextWrapped = true
+Converted["_TextLabel"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_TextLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].BackgroundTransparency = 1
+Converted["_TextLabel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel"].BorderSizePixel = 0
+Converted["_TextLabel"].Position = UDim2.new(0.0114449216, 0, 0, 0)
+Converted["_TextLabel"].Size = UDim2.new(0, 684, 0, 30)
+Converted["_TextLabel"].Parent = Converted["_title"]
+
+Converted["_Executor"].BackgroundColor3 = Color3.fromRGB(34.00000177323818, 34.00000177323818, 34.00000177323818)
+Converted["_Executor"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Executor"].BorderSizePixel = 0
+Converted["_Executor"].Position = UDim2.new(0.0125874123, 0, 0.102325581, 0)
+Converted["_Executor"].Size = UDim2.new(0, 699, 0, 340)
+Converted["_Executor"].Name = "Executor"
+Converted["_Executor"].Parent = Converted["_Main"]
+
+Converted["_UICorner2"].Parent = Converted["_Executor"]
+
+Converted["_ScrollingFrame"].CanvasSize = UDim2.new(0, 0, 900, 0)
+Converted["_ScrollingFrame"].ScrollBarThickness = 7
+Converted["_ScrollingFrame"].Active = true
+Converted["_ScrollingFrame"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ScrollingFrame"].BackgroundTransparency = 1
+Converted["_ScrollingFrame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ScrollingFrame"].BorderSizePixel = 0
+Converted["_ScrollingFrame"].Position = UDim2.new(0.0114449216, 0, 0.0176470596, 0)
+Converted["_ScrollingFrame"].Size = UDim2.new(0, 684, 0, 328)
+Converted["_ScrollingFrame"].Parent = Converted["_Executor"]
+
+Converted["_gettextbox"].ClearTextOnFocus = false
+Converted["_gettextbox"].CursorPosition = -1
+Converted["_gettextbox"].Font = Enum.Font.SourceSans
+Converted["_gettextbox"].MultiLine = true
+Converted["_gettextbox"].Text = ""
+Converted["_gettextbox"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_gettextbox"].TextSize = 26
+Converted["_gettextbox"].TextWrapped = true
+Converted["_gettextbox"].TextXAlignment = Enum.TextXAlignment.Left
+Converted["_gettextbox"].TextYAlignment = Enum.TextYAlignment.Top
+Converted["_gettextbox"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_gettextbox"].BackgroundTransparency = 1
+Converted["_gettextbox"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_gettextbox"].BorderSizePixel = 0
+Converted["_gettextbox"].Size = UDim2.new(0, 672, 0, 900)
+Converted["_gettextbox"].Name = "gettextbox"
+Converted["_gettextbox"].Parent = Converted["_ScrollingFrame"]
+
+Converted["_Execute"].Font = Enum.Font.SourceSans
+Converted["_Execute"].Text = "Execute"
+Converted["_Execute"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Execute"].TextScaled = true
+Converted["_Execute"].TextSize = 14
+Converted["_Execute"].TextWrapped = true
+Converted["_Execute"].BackgroundColor3 = Color3.fromRGB(26.00000225007534, 26.00000225007534, 26.00000225007534)
+Converted["_Execute"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Execute"].BorderSizePixel = 0
+Converted["_Execute"].Position = UDim2.new(0.0125874123, 0, 0.909302354, 0)
+Converted["_Execute"].Size = UDim2.new(0, 186, 0, 32)
+Converted["_Execute"].Name = "Execute"
+Converted["_Execute"].Parent = Converted["_Main"]
+
+Converted["_UICorner3"].Parent = Converted["_Execute"]
+
+Converted["_Clear"].Font = Enum.Font.SourceSans
+Converted["_Clear"].Text = "Clear"
+Converted["_Clear"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Clear"].TextScaled = true
+Converted["_Clear"].TextSize = 14
+Converted["_Clear"].TextWrapped = true
+Converted["_Clear"].BackgroundColor3 = Color3.fromRGB(26.00000225007534, 26.00000225007534, 26.00000225007534)
+Converted["_Clear"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Clear"].BorderSizePixel = 0
+Converted["_Clear"].Position = UDim2.new(0.293706298, 0, 0.909302354, 0)
+Converted["_Clear"].Size = UDim2.new(0, 186, 0, 32)
+Converted["_Clear"].Name = "Clear"
+Converted["_Clear"].Parent = Converted["_Main"]
+
+Converted["_UICorner4"].Parent = Converted["_Clear"]
+
+Converted["_TextButton"].Font = Enum.Font.SourceSans
+Converted["_TextButton"].Text = "UI"
+Converted["_TextButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextButton"].TextScaled = true
+Converted["_TextButton"].TextSize = 14
+Converted["_TextButton"].TextWrapped = true
+Converted["_TextButton"].BackgroundColor3 = Color3.fromRGB(31.000001952052116, 31.000001952052116, 31.000001952052116)
+Converted["_TextButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton"].BorderSizePixel = 0
+Converted["_TextButton"].Position = UDim2.new(-0.00656814454, 0, 0.667770445, 0)
+Converted["_TextButton"].Size = UDim2.new(0, 171, 0, 50)
+Converted["_TextButton"].Parent = Converted["_InternalUI"]
+
+Converted["_UICorner5"].Parent = Converted["_TextButton"]
+
+-- Fake Module Scripts:
+
+local fake_module_scripts = {}
+
+
+-- Fake Local Scripts:
+
+local function VWQP_fake_script() -- Fake Script: StarterGui.InternalUI.Main.Execute.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Execute"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	btn = script.Parent
+	textbox = script.Parent.Parent.Executor.ScrollingFrame.gettextbox
+	script.Parent = nil
+	btn.MouseButton1Click:Connect(function()
+		loadstring(textbox.Text)()
+	end)
+end
+local function UVCIO_fake_script() -- Fake Script: StarterGui.InternalUI.Main.Clear.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_Clear"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	btn = script.Parent
+	textbox = script.Parent.Parent.Executor.ScrollingFrame.gettextbox
+	script.Parent = nil
+	btn.MouseButton1Click:Connect(function()
+		textbox.Text = ''
+	end)
+end
+local function RSSQJVX_fake_script() -- Fake Script: StarterGui.InternalUI.TextButton.LocalScript
+    local script = Instance.new("LocalScript")
+    script.Name = "LocalScript"
+    script.Parent = Converted["_TextButton"]
+    local req = require
+    local require = function(obj)
+        local fake = fake_module_scripts[obj]
+        if fake then
+            return fake()
+        end
+        return req(obj)
+    end
+
+	btn = script.Parent
+	getui = script.Parent.Parent.Main
+	script.Parent = nil
+	btn.MouseButton1Click:Connect(function()
+		if getui.Visible == true then
+			getui.Parent.Blur.Visible = false
+			getui.Visible = false
+		else
+			getui.Parent.Blur.Visible = true
+			getui.Visible = true
+		end
+	end)
+end
+
+coroutine.wrap(VWQP_fake_script)()
+coroutine.wrap(UVCIO_fake_script)()
+coroutine.wrap(RSSQJVX_fake_script)()
